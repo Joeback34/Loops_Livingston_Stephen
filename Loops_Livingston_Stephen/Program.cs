@@ -19,25 +19,25 @@ namespace Loops_Livingston_Stephen
         }
 
         /// <summary>
-        /// 
+        /// Counts the number os spaces in the sentence by using foreach, if and return statements
         /// </summary>
         /// <param name="sentence">The sentence to count number of spaces in</param>
         /// <returns></returns>
-        static int CountNumbersOfSpaces(string sentence) 
+        static int CountNumbersOfSpaces(string sentence) // Method that counts the number of spaces
         {
             int numberOfSpaces = 0;
             foreach (char character in sentence)
             {
-                if(character == ' ')
+                if(character == ' ')  
                 {
-                    numberOfSpaces++;
+                    numberOfSpaces++;   
                 }
             }
             return numberOfSpaces;
         }
         
         /// <summary>
-        /// 
+        /// Prints the sum of the users input.
         /// </summary>
         /// <param name="number"></param>
         /// <returns>Number of spaces in the sentence</returns>
