@@ -37,7 +37,7 @@ namespace Loops_Livingston_Stephen
         }
         
         /// <summary>
-        /// Prints the sum of the users input.
+        /// Prints the sum of the users input.d
         /// </summary>
         /// <param name="number"></param>
         /// <returns>Number of spaces in the sentence</returns>
